@@ -9,30 +9,14 @@
   
   <script>
   function validation() {
-    const target = document.getElementById('outputDiv');
-    let output = ' ';
-    for (let i=1; i <= 100; i ++) {
-      if(i%3 == 0 && i%5==0){
-      output = 'FizzBuzz';
-      }
-      else if (i % 3 ==0){
-        output= 'Fizz';
-      }
-      else if (i%5 == 0){
-        output = 'Buzz';
-      }
-      else{
-        output =i;
-      }
-      target.innerHTML += output +'<br>';
-    }
+    alert("Enter credit card number");
   }
   </script>
 </head>
 
 <body>
   <h3>Credit Card Test</h3>
-  <button onclick="validation()">Run it</button>
+  <button onclick="validation()">Validate</button>
   <div id="outputDiv">
   </div>
 </body>
