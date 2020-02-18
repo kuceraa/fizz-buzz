@@ -9,17 +9,6 @@
   
  <script type="text/javascript">
     <!--
-    /* This script and many more are available free online at
-    The JavaScript Source!! http://javascript.internet.com
-    Created by: David Leppek :: https://www.azcode.com/Mod10
-
-    Basically, the algorithm takes each digit, from right to left and muliplies each second
-    digit by two. If the multiple is two-digits long (i.e.: 6 * 2 = 12) the two digits of
-    the multiple are then added together for a new number (1 + 2 = 3). You then add up the
-    string of numbers, both unaltered and new values and get a total sum. This sum is then
-    divided by 10 and the remainder should be zero if it is a valid credit card. Hense the
-    name Mod 10 or Modulus 10.
-    */
     function Mod10(ccNumb) {  // v2.0
       var valid = "0123456789"  // Valid digits in a credit card number
       var len = ccNumb.length;  // The length of the submitted cc number
